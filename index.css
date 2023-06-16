@@ -1,0 +1,105 @@
+body {
+    background: #d1d1d1;
+    margin: 40px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 6fr 10fr;   
+}
+.div1 {
+grid-column-start:1;
+grid-column-end: 3;
+grid-row-start: 1;
+background: #f9ded5;
+color:#8db7cd;
+border-radius: 5px;
+margin: 0px;
+display: inline-flex;
+flex-direction: column;
+justify-content: left;
+}
+.div2 {
+    background: #f9ded5;
+    color:#8db7cd;
+    grid-column-start:1;
+grid-column-end: 3;
+    margin: 0px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+justify-content: center;
+     
+
+}
+.div3 {
+    background: #f9ded5;
+    color:#3f8bb4;
+    grid-column-start:1;
+    grid-column-end: 3;
+    margin: 0px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+     
+    
+}
+.div4 {
+    background: #ebe9e9;
+    color: #3f8bb4;
+    grid-column-start:1;
+    grid-column-end: 3;
+    margin: 0px;
+    border-radius: 5px; 
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.div5 {
+    background: #3f8bb4;
+    border-radius: 5px;
+    color:azure;
+    margin: 0px;
+    grid-column-start:3;
+    grid-row-start: 1;
+    grid-row-end: 5;      
+}
+.div6{
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    background: #ffffff;
+    color:#8db7cd;
+    margin: 0px;
+}
+
+.div7 {
+    background:#ffffff;
+    text-align: center;
+    
+    height: 40px;
+    color:#8db7cd;
+    margin: 0px;
+}
+.div8 {
+ text-align: center;
+ margin: 0px;  
+ color:azure; 
+ grid-row: 17;
+}
+.contacts {margin-left: 40px;}
+.cv {margin-left: 40px;}
+.textbox {margin-left: 40px;
+    margin-right: 40px;
+display:flex;
+flex-direction: column;}
+p {margin-top: 0px;
+    margin-bottom: 0px;}
+
+h1 {margin-left: 40px;}
+h2 {margin-left: 40px;}
+h3 {margin-left: 40px;}
+h4 {margin-left: 40px;}
+h5 {margin-left: 40px;}
