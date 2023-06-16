@@ -17,7 +17,7 @@ border-radius: 5px;
 margin: 0px;
 display: inline-flex;
 flex-direction: column;
-justify-content: center;
+justify-content: left;
 }
 .div2 {
     background: #f9ded5;
@@ -90,8 +90,14 @@ justify-content: center;
  grid-row: 17;
 }
 .contacts {margin-left: 40px;}
-.cv {margin-left: 40px;
-;}
+.cv {margin-left: 40px;}
+.textbox {margin-left: 40px;
+    margin-right: 40px;
+display:flex;
+flex-direction: column;}
+p {margin-top: 0px;
+    margin-bottom: 0px;}
+
 h1 {margin-left: 40px;}
 h2 {margin-left: 40px;}
 h3 {margin-left: 40px;}
