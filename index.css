@@ -64,6 +64,7 @@ body {
 .div5 {
     background: #3f8bb4;
     border-radius: 5px;
+    opacity: 80%;
     color:azure;
     margin: 0px;
     grid-column-start:3;
@@ -73,12 +74,13 @@ body {
     flex-direction: column;      
 }
 .div6{
-    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     height: 40px;
     text-align: center;
     background: #ffffff;
     color:#8db7cd;
-    margin: 0px;
+    
 }
 
 .div7 {
@@ -87,13 +89,16 @@ body {
     
     height: 40px;
     color:#8db7cd;
-    margin: 0px;
+   
 }
 .div8 {
  text-align: center;
- margin: 0px;  
- color:azure; 
- grid-row: 17;
+ background-color: #af4b4b;
+ opacity: 50%;
+ border-radius: 10px; 
+ color:azure;
+ width:100%;
+ grid-row: auto;
 }
 .contacts {margin-left: 40px;
     margin-right: 40px;
@@ -109,8 +114,10 @@ display:flex;
 flex-direction: column;}
 p {margin-top: 0px;
     margin-bottom: 0px;}
+.p1 {margin:10px;}    
 .blue {margin-left: 40px;
-margin-right:40px;}    
+margin-right:40px;
+margin-top: 20px;}    
 
 h1 {margin-left: 40px;
     margin-right: 40px;}
