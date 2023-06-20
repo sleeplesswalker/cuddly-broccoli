@@ -9,17 +9,17 @@ body {
     grid-template-rows: 2fr 2fr 3fr 7fr;   
 }
 .div1 {
-grid-column-start:1;
-grid-column-end: 3;
-grid-row-start: 1;
-background: #c7b6b1;
-opacity: 80%;
-color:#398fbe;
-border-radius: 5px;
-margin: 0px;
-display: inline-flex;
-flex-direction: column;
-justify-content: left;
+    grid-column-start:1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    background: #c7b6b1;
+    opacity: 80%;
+    color:#398fbe;
+    border-radius: 5px;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
 }
 .div2 {
     background: #c7b6b1;;
